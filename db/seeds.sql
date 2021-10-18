@@ -1,28 +1,29 @@
 INSERT INTO department (name)
-VALUES ("Engineering"),
-       ("Finance"),
-       ("Legal"),
-       ("Sales");
+VALUES
+('Sales'),
+('Engineering'),
+('Legal'),
+('Finance');
 
-INSERT INTO roles (title, department_id, salary)
-VALUES ("Junior Engineer", 1, 80000),
-       ("Senior Engineer", 1, 120000),
-       ("CPA", 2, 75000),
-       ("Finance Executive", 2, 130000),
-       ("Paralegal", 3, 60000),
-       ("Laywer", 3, 125000),
-       ("Sales Associate", 4, 80000),
-       ("Sales Manager", 4, 150000);  
+INSERT INTO roles (title, salary, department_id)
+VALUES
+('Junior Engineer', 80000, 2),
+('Senior Engineer',120000,2),
+('CPA',75000,4),
+('Finance Executive',130000,4),
+('Paralegal', 60000, 3),
+('Lawyer',125000,3),
+('Sales Associate',80000,1);
 
-INSERT INTO employee(first_name, last_name, role_id, manager_id) 
-    VALUES 
-       ("Edward", "Gein", 1),
-       ("Michael", "Meyers", 2),
-       ("Jason", "Voorhees", 4),
-       ("Richard", "Ramirez", 3),
-       ("Ted", "Bundy", 2),
-       ("John", "Gacy", 3),
-       ("Joe", "Goldberg", 1,),
-       ("Patrick", "Bateman", 4);
 
-        
+
+INSERT INTO employee (first_name, last_name, manager_id, role_id)
+VALUES
+  ('Edward', 'Gein', NULL, 3),
+  ('Michael', 'Meyers', NULL, 6),
+  ('Jason', 'Voorhees', NULL, 5),
+  ('Richard', 'Ramirez', 1, 1),
+  ('Ted', 'Bundy', 4, 2),
+  ('John', 'Gacy', 1, 4),
+  ('Joe', 'Goldberg', 2, 7),
+  ('Patrick', 'Bateman', 1, 4);
