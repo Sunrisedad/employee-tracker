@@ -3,37 +3,13 @@
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
 
-## Description 
+## User Story
 
+* AS A business owner
+* I WANT to be able to view and manage the departments, roles, and employees in my company
+* SO THAT I can organize and plan my business
 
-
-## Table of Contents 
-
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Features](#features)
-* [Contributions](#contributions)
-* [Tests](#tests)
-* [Questions](#questions)
-
-
-## Installation
-
-
-
-## Usage 
-
-
-
-## License
-
-
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-
-
-## Features
+## Acceptance Criteria
 
 * GIVEN a command-line application that accepts user input
 * WHEN I start the application
@@ -53,10 +29,14 @@
 * WHEN I choose to update an employee role
 * THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
-## Contributions
 
-## Tests
+## Usage 
 
+* Run npm start in the CLI after installing dependencies
+
+## License
+
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
 ## Questions
