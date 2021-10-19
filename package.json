@@ -2,8 +2,9 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/Sunrisedad/employee-tracker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sheldon Collins",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sunrisedad/employee-tracker/issues"
@@ -21,6 +22,7 @@
     "console.table": "^0.10.0",
     "express": "^4.17.1",
     "inquirer": "^8.2.0",
-    "mysql2": "^2.3.0"
+    "mysql2": "^2.3.0",
+    "node": "^16.11.1"
   }
 }
