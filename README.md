@@ -32,6 +32,8 @@
 
 ## Usage 
 
+https://watch.screencastify.com/v/1ZSkZtvSGhuersPgZRud
+
 * Run npm start in the CLI after installing dependencies
 
 ## License
